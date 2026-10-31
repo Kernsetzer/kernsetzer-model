@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "title": "Ein Landarzt",
+    "authors": [
+      "Franz Kafka"
+    ],
+    "lang": "de"
+  },
+  "sections": [
+    {
+      "kind": "chapter",
+      "title": "Ein Landarzt",
+      "numbering": {
+        "type": "auto"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ich war in großer Verlegenheit: eine dringende Reise stand mir bevor;"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "style": {
+    "theme": "classic",
+    "trim": {
+      "width_mm": 120.0,
+      "height_mm": 190.0
+    },
+    "params": {
+      "scene-break": "dinkus"
+    },
+    "custom_theme": {
+      "id": "harbour-series",
+      "name": "Pride and Prejudice",
+      "hash": "sha256:3b1f0c6e9a47d2858e0c41b7a96f5d3e2c8a10b4f7d6e9532a1c0b8d7e6f4a59",
+      "future-link-field": {
+        "depth": [
+          1,
+          2
+        ]
+      }
+    }
+  }
+}

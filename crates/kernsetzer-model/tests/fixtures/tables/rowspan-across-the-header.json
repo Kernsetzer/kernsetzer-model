@@ -1,0 +1,94 @@
+{
+  "note": "A cell that starts in the header covers header rows only (rule 4).",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      }
+    ],
+    "header_rows": 1,
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ],
+          "rowspan": 2
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Lydia"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 2,
+    "rows": 2,
+    "header_rows": 1,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        "Mary",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        "Lydia",
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        "",
+        null
+      ]
+    ]
+  }
+}

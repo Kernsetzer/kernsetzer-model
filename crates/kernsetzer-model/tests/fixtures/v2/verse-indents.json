@@ -1,0 +1,234 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "title": "Alice's Adventures in Wonderland",
+    "authors": [
+      "Lewis Carroll"
+    ],
+    "lang": "en"
+  },
+  "sections": [
+    {
+      "kind": "chapter",
+      "title": "The Pool of Tears",
+      "numbering": {
+        "type": "auto"
+      },
+      "blocks": [
+        {
+          "type": "verse",
+          "lines": [
+            [
+              {
+                "type": "text",
+                "text": "“How doth the little crocodile"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Improve his shining tail,"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "And pour the waters of the Nile"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "On every golden scale!"
+              }
+            ],
+            [],
+            [
+              {
+                "type": "text",
+                "text": "“How cheerfully he seems to grin,"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "How neatly spread his claws,"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "And welcome little fishes in"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "With gently smiling jaws!”"
+              }
+            ]
+          ],
+          "indents": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+            [
+              {
+                "type": "text",
+                "text": "“How cheerfully he seems to grin,"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "How neatly spread his claws,"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "And welcome little fishes in"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "With gently smiling jaws!”"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+            [
+              {
+                "type": "text",
+                "text": "“How doth the little crocodile"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Improve his shining tail,"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "And pour the waters of the Nile"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "On every golden scale!"
+              }
+            ]
+          ],
+          "indents": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+            [
+              {
+                "type": "text",
+                "text": "“How doth the little crocodile"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Improve his shining tail,"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "And pour the waters of the Nile"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "On every golden scale!"
+              }
+            ]
+          ],
+          "indents": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            4
+          ],
+          "future_metre": {
+            "feet": [
+              4,
+              3
+            ]
+          }
+        },
+        {
+          "type": "verse",
+          "lines": [
+            [
+              {
+                "type": "text",
+                "text": "“How doth the little crocodile"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Improve his shining tail,"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "And pour the waters of the Nile"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "On every golden scale!"
+              }
+            ]
+          ],
+          "indents": [
+            0,
+            200,
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "style": {
+    "theme": "classic",
+    "trim": {
+      "width_mm": 120.0,
+      "height_mm": 190.0
+    },
+    "params": {}
+  }
+}

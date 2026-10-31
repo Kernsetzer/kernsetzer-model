@@ -1,0 +1,113 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "title": "Bilderprobe",
+    "authors": [
+      "A. Autorin"
+    ],
+    "lang": "de"
+  },
+  "sections": [
+    {
+      "kind": "chapter",
+      "title": "Bilder",
+      "numbering": {
+        "type": "auto"
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png"
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "width": 10,
+          "placement": "inline"
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "width": 55,
+          "placement": "beside"
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "width": 40,
+          "placement": "beside",
+          "side": "inside"
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "width": 35,
+          "placement": "beside",
+          "side": "left"
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "width": 30,
+          "placement": "beside",
+          "side": "right"
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "width": 100,
+          "placement": "page",
+          "caption": [
+            {
+              "type": "text",
+              "text": "Das nächste Dorf"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "placement": "bleed"
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "width": 55,
+          "side": "left"
+        },
+        {
+          "type": "image",
+          "asset": "a.png",
+          "alt": "Bild a.png",
+          "width": 100,
+          "placement": "beside",
+          "future_crop": {
+            "x": 1,
+            "y": [
+              2,
+              3
+            ]
+          },
+          "note": "später"
+        }
+      ]
+    }
+  ],
+  "style": {
+    "theme": "classic",
+    "trim": {
+      "width_mm": 120.0,
+      "height_mm": 190.0
+    },
+    "params": {}
+  }
+}

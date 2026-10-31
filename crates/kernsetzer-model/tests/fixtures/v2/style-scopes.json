@@ -1,0 +1,96 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "title": "Bereichsprobe",
+    "authors": [
+      "A. Autorin"
+    ],
+    "lang": "de"
+  },
+  "sections": [
+    {
+      "kind": "chapter",
+      "title": "Der neue Advokat",
+      "numbering": {
+        "type": "auto"
+      },
+      "style": {
+        "initial": "none",
+        "scene-break": "rule"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Noch standen treu die Pferde an ihren Plätzen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "epilogue",
+      "title": "Danach",
+      "numbering": {
+        "type": "none"
+      },
+      "style": {
+        "head-recto": "none",
+        "future-knob": {
+          "depth": [
+            1,
+            2
+          ]
+        }
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ich schwang mich aufs Pferd."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "style": {
+    "theme": "classic",
+    "trim": {
+      "width_mm": 120.0,
+      "height_mm": 190.0
+    },
+    "params": {
+      "scene-break": "dinkus"
+    },
+    "params_version": 1,
+    "future-style-field": {
+      "depth": [
+        1,
+        2
+      ]
+    },
+    "kinds": {
+      "back-matter": {
+        "head-verso": "none"
+      },
+      "chapters": {
+        "chapter-start": "recto",
+        "initial": "raised"
+      },
+      "front-matter": {
+        "folio": "none"
+      },
+      "parts": {
+        "chapter-ornament": "fleuron"
+      },
+      "poetry": {
+        "note": "von einer neueren Version"
+      }
+    }
+  }
+}

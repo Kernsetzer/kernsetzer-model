@@ -1,0 +1,305 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "title": "Pride and Prejudice",
+    "authors": [
+      "Jane Austen"
+    ],
+    "lang": "en"
+  },
+  "sections": [
+    {
+      "kind": "chapter",
+      "title": "Chapter I",
+      "numbering": {
+        "type": "auto"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "columns": [
+            {
+              "align": "left",
+              "x-width": "4em"
+            },
+            {
+              "align": "right"
+            },
+            {
+              "align": "right"
+            }
+          ],
+          "header_rows": 2,
+          "rows": [
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Mr. Bingley"
+                  }
+                ],
+                "rowspan": 2
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "the assembly"
+                  }
+                ],
+                "colspan": 2,
+                "align": "center",
+                "x-cell": {
+                  "type": "banner",
+                  "n": 1
+                }
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "report"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "party"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "ladies"
+                  }
+                ],
+                "rowspan": 2
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "twelve"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "six"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "seven"
+                  }
+                ]
+              },
+              {
+                "content": []
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "altogether"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "five"
+                  }
+                ],
+                "align": "left"
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "six"
+                  },
+                  {
+                    "type": "footnote",
+                    "blocks": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "R. W. Chapman’s edition of 1923"
+                          }
+                        ],
+                        "x-note": "in a cell"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "caption": [
+            {
+              "type": "text",
+              "text": "Netherfield"
+            }
+          ],
+          "x-table": {
+            "style": "booktabs",
+            "type": "paragraph",
+            "big": 18446744073709551615
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Mr. Bennet made no answer."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "columns": [
+            {
+              "align": "left"
+            },
+            {
+              "align": "left"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Jane"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "the eldest Miss Bennet"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Lydia"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "the youngest"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "columns": [],
+          "header_rows": 9,
+          "rows": [
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Elizabeth"
+                  }
+                ],
+                "colspan": 0,
+                "rowspan": 5
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Mary"
+                  }
+                ],
+                "colspan": 40
+              }
+            ],
+            [],
+            [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Catherine"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Lydia"
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Jane"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "style": {
+    "theme": "classic",
+    "trim": {
+      "width_mm": 152.4,
+      "height_mm": 228.6
+    },
+    "params": {}
+  }
+}

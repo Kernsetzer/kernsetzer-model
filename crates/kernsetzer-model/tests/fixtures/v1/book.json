@@ -1,0 +1,313 @@
+{
+  "format_version": 1,
+  "metadata": {
+    "title": "Ein Landarzt",
+    "subtitle": "Kleine Erzählungen",
+    "authors": [
+      "A. Autorin",
+      "B. Autor"
+    ],
+    "lang": "de-AT",
+    "series": {
+      "name": "Proben",
+      "number": 2
+    },
+    "publisher": "Eigenverlag",
+    "isbn_print": "978-3-00-000000-0",
+    "isbn_ebook": "978-3-00-000001-7",
+    "copyright": "© 2026 A. Autorin",
+    "edition": "1. Auflage"
+  },
+  "sections": [
+    {
+      "kind": "dedication",
+      "numbering": {
+        "type": "none"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Für M."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "part",
+      "title": "Teil 1: Das nächste Dorf",
+      "numbering": {
+        "type": "auto"
+      },
+      "blocks": []
+    },
+    {
+      "kind": "chapter",
+      "title": "Vor dem Gesetz",
+      "numbering": {
+        "type": "explicit",
+        "value": 1
+      },
+      "epigraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": "So ist es."
+          }
+        ],
+        "attribution": "Franz Kafka"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Noch standen treu die "
+            },
+            {
+              "type": "emphasis",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Pferde"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " an ihren "
+            },
+            {
+              "type": "strong",
+              "content": [
+                {
+                  "type": "small-caps",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Plätzen"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "footnote",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Dort sitzt er Tage und Jahre."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", H"
+            },
+            {
+              "type": "subscript",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "2"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "O und 10"
+            },
+            {
+              "type": "superscript",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "link",
+              "url": "https://example.org",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Link"
+                }
+              ]
+            },
+            {
+              "type": "line-break"
+            },
+            {
+              "type": "text",
+              "text": "„Gut genug“ – so ist es…"
+            }
+          ]
+        },
+        {
+          "type": "scene-break"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Auf der Galerie"
+            }
+          ]
+        },
+        {
+          "type": "block-quote",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Ich schwang mich aufs Pferd."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+            [
+              {
+                "type": "text",
+                "text": "Wärme und Geruch wie von Pferden kam hervor"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Eine trübe Stallaterne schwankte drin an einem Seil"
+              }
+            ],
+            [],
+            [
+              {
+                "type": "text",
+                "text": "Das Dienstmädchen stand neben mir"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "image",
+          "asset": "map.png",
+          "alt": "Karte",
+          "caption": [
+            {
+              "type": "text",
+              "text": "Das nächste Dorf"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Eins"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Zwei"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "page-break"
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "title": "Zwischenspiel",
+      "numbering": {
+        "type": "none"
+      },
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Punkt"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "about-the-author",
+      "title": "Eine kaiserliche Botschaft",
+      "numbering": {
+        "type": "auto"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nun bin ich aber Arzt."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "style": {
+    "theme": "classic",
+    "trim": {
+      "width_mm": 120.0,
+      "height_mm": 190.0
+    },
+    "params": {
+      "body-size": 10.5,
+      "drop-cap": true,
+      "ornament": "❦"
+    }
+  }
+}

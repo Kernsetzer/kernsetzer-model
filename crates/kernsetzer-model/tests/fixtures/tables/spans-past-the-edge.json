@@ -1,0 +1,97 @@
+{
+  "note": "A colspan wider than the table, a rowspan past the last row (rules 2 and 4); the short row is filled (rule 5).",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      }
+    ],
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ],
+          "colspan": 9
+        }
+      ],
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Lydia"
+            }
+          ],
+          "rowspan": 9
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 3,
+    "rows": 2,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        3,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        "Mary",
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        "Lydia",
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        1,
+        2,
+        1,
+        1,
+        "",
+        null
+      ]
+    ]
+  }
+}

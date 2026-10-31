@@ -1,0 +1,52 @@
+{
+  "note": "A row lists more cells than the table is wide and the cell that takes the surplus is empty: the cell starts with the first surplus text, with no line break before it (rule 3).",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      }
+    ],
+    "rows": [
+      [
+        {
+          "content": []
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Lydia"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 1,
+    "rows": 1,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane Lydia",
+        [
+          0,
+          0
+        ]
+      ]
+    ]
+  }
+}

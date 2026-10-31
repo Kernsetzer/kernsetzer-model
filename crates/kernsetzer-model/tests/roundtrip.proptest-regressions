@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc ab7a0ace2f09da4c78c12274e4489fae6cd97a80a388840cee3701fb50a5a9c0 # shrinks to b = Book { format_version: 1, metadata: Metadata { title: "", subtitle: None, authors: [], lang: Lang(""), series: None, publisher: None, isbn_print: None, isbn_ebook: None, copyright: None, edition: None }, sections: [], style: StyleSettings { theme: "", trim: TrimSize { width_mm: 0.0, height_mm: 0.0 }, params: {"": Array [Number(-9.527717949901387e+270)]} } }
+cc a1c655e0d6d0025e5c195d3b83fde4dd0063f1f7ac1ba5bab138964a78866b41 # shrinks to b = Book { format_version: 1, metadata: Metadata { title: "", subtitle: None, authors: [], lang: Lang(""), series: None, publisher: None, isbn_print: None, isbn_ebook: None, copyright: None, edition: None }, sections: [], style: StyleSettings { theme: "", trim: TrimSize { width_mm: 0.0, height_mm: 0.0 }, params: {"": Object {"": Object {"": Number(1.2139134268708495e-58)}}} } }

@@ -1,0 +1,105 @@
+{
+  "note": "Every position of row 1 is covered, but the row lists two cells: the cut frees the positions and they keep their text (rule 6; the ADR would drop them).",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      }
+    ],
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ],
+          "rowspan": 2
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ],
+          "rowspan": 2
+        }
+      ],
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Catherine"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Lydia"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 2,
+    "rows": 2,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        "Mary",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        "Catherine",
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        "Lydia",
+        [
+          1,
+          1
+        ]
+      ]
+    ]
+  }
+}

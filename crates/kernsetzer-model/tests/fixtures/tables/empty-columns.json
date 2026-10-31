@@ -1,0 +1,85 @@
+{
+  "note": "No columns: the width is the widest row (rule 1).",
+  "table": {
+    "type": "table",
+    "columns": [],
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Elizabeth"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 2,
+    "rows": 2,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        "Elizabeth",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        "Mary",
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        "",
+        null
+      ]
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "note": "A colspan that would run into the column a rowspan from above covers is cut there; the next cell skips the covered column (rules 2 and 3).",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      }
+    ],
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Elizabeth"
+            }
+          ],
+          "rowspan": 2
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Catherine"
+            }
+          ],
+          "colspan": 3
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Lydia"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 3,
+    "rows": 2,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        "Elizabeth",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        "Mary",
+        [
+          0,
+          2
+        ]
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        "Catherine",
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        1,
+        2,
+        1,
+        1,
+        "Lydia",
+        [
+          1,
+          1
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[package]
+name = "kernsetzer-model"
+description = "Semantic document model and .kernsetzer project file"
+version = "0.1.3"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+rust-version = "1.92"
+repository = "https://github.com/Kernsetzer/kernsetzer-model"
+
+readme = "README.md"
+
+[lib]
+name = "setzer_model"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+thiserror = "2"
+zip = { version = "9", default-features = false, features = ["deflate-flate2-zlib-rs"] }
+
+[dev-dependencies]
+proptest = { version = "1", default-features = false, features = ["std"] }

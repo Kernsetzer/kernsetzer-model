@@ -1,0 +1,66 @@
+{
+  "note": "Spans of 0 are 1 (rule 2).",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      }
+    ],
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ],
+          "colspan": 0,
+          "rowspan": 0
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ],
+          "colspan": 0
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 2,
+    "rows": 1,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        "Mary",
+        [
+          0,
+          1
+        ]
+      ]
+    ]
+  }
+}

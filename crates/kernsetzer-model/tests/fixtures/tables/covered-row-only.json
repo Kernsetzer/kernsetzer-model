@@ -1,0 +1,111 @@
+{
+  "note": "Row 1 lists no cell and every position of it is covered by a rowspan from above: the spans end above it and its positions are empty cells (rule 6).",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      }
+    ],
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ],
+          "rowspan": 3
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ],
+          "rowspan": 3
+        }
+      ],
+      [],
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Lydia"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 2,
+    "rows": 3,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        "Mary",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        "",
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        "",
+        null
+      ],
+      [
+        2,
+        0,
+        1,
+        1,
+        "Lydia",
+        [
+          2,
+          0
+        ]
+      ],
+      [
+        2,
+        1,
+        1,
+        1,
+        "",
+        null
+      ]
+    ]
+  }
+}

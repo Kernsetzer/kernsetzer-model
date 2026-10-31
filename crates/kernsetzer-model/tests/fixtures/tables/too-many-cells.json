@@ -1,0 +1,79 @@
+{
+  "note": "A row lists more cells than the table is wide: the surplus joins the last cell placed, after line breaks (rule 3).",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      },
+      {
+        "align": "left"
+      }
+    ],
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Elizabeth"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Catherine"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 2,
+    "rows": 1,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        "Elizabeth Mary Catherine",
+        [
+          0,
+          1
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "note": "The cell's own alignment, or else its first column's (a spanning cell included): checked in the test through the alignment column of `expect.aligns`.",
+  "table": {
+    "type": "table",
+    "columns": [
+      {
+        "align": "left"
+      },
+      {
+        "align": "right"
+      },
+      {
+        "align": "center"
+      }
+    ],
+    "rows": [
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Jane"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Elizabeth"
+            }
+          ],
+          "colspan": 2
+        }
+      ],
+      [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Mary"
+            }
+          ],
+          "colspan": 2,
+          "align": "center"
+        },
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "Lydia"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "expect": {
+    "columns": 3,
+    "rows": 2,
+    "header_rows": 0,
+    "cells": [
+      [
+        0,
+        0,
+        1,
+        1,
+        "Jane",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        "Elizabeth",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        1,
+        0,
+        1,
+        2,
+        "Mary",
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        1,
+        2,
+        1,
+        1,
+        "Lydia",
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "aligns": [
+      "left",
+      "right",
+      "center",
+      "center"
+    ]
+  }
+}
