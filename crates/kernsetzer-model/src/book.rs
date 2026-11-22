@@ -610,6 +610,9 @@ pub enum Inline {
     Emphasis { content: Vec<Inline> },
     Strong { content: Vec<Inline> },
     SmallCaps { content: Vec<Inline> },
+    // Words the author blacked out; the text is kept (a renderer sets it on a
+    // black box, so lines break as written) and stays readable in the file.
+    Redacted { content: Vec<Inline> },
     Superscript { content: Vec<Inline> },
     Subscript { content: Vec<Inline> },
     Link { url: String, content: Vec<Inline> },
@@ -631,6 +634,7 @@ impl Inline {
                 Inline::Emphasis { content }
                 | Inline::Strong { content }
                 | Inline::SmallCaps { content }
+                | Inline::Redacted { content }
                 | Inline::Superscript { content }
                 | Inline::Subscript { content }
                 | Inline::Link { content, .. } => out.push_str(&Self::plain_text(content)),
@@ -719,6 +723,21 @@ impl Default for StyleSettings {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn redacted_words_are_kept_in_plain_text_and_written_by_name() {
+        let inlines = vec![
+            Inline::text("Der "),
+            Inline::Redacted {
+                content: vec![Inline::text("Name")],
+            },
+        ];
+        assert_eq!(Inline::plain_text(&inlines), "Der Name");
+        assert_eq!(
+            serde_json::to_value(&inlines[1]).unwrap(),
+            serde_json::json!({"type": "redacted", "content": [{"type": "text", "text": "Name"}]})
+        );
+    }
 
     #[test]
     fn picture_defaults_are_not_written() {
