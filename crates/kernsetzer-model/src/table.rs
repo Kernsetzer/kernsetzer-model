@@ -410,6 +410,7 @@ fn has_note(inlines: &[Inline]) -> bool {
         Inline::Emphasis { content }
         | Inline::Strong { content }
         | Inline::SmallCaps { content }
+        | Inline::Redacted { content }
         | Inline::Superscript { content }
         | Inline::Subscript { content }
         | Inline::Link { content, .. } => has_note(content),

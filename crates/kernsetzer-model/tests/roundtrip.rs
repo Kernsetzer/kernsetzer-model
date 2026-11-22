@@ -117,6 +117,9 @@ fn inline() -> impl Strategy<Value = Inline> {
                 .prop_map(|content| Inline::SmallCaps { content }),
             content
                 .clone()
+                .prop_map(|content| Inline::Redacted { content }),
+            content
+                .clone()
                 .prop_map(|content| Inline::Superscript { content }),
             content
                 .clone()

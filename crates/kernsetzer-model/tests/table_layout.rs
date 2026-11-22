@@ -176,6 +176,7 @@ fn leaves(inlines: &[Inline], out: &mut Vec<String>) {
             Inline::Emphasis { content }
             | Inline::Strong { content }
             | Inline::SmallCaps { content }
+            | Inline::Redacted { content }
             | Inline::Superscript { content }
             | Inline::Subscript { content }
             | Inline::Link { content, .. } => leaves(content, out),
